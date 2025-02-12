@@ -1,6 +1,6 @@
 # FaculdadeADS
 
-Este repositório foi criado para armazenar e organizar as atividades realizadas durante o curso de **Análise e Desenvolvimento de Sistemas (ADS)**. Aqui, guardo uma parte dos meus exercícios, projetos e códigos relacionados à programação, refletindo meu aprendizado nas diferentes linguagens e conceitos que estou explorando. 
+Este repositório foi criado para armazenar e organizar as atividades realizadas durante o curso de **Análise e Desenvolvimento de Sistemas (ADS)**. Aqui, guardo uma parte dos meus exercícios, projetos e códigos relacionados à programação, refletindo meu aprendizado nas diferentes linguagens e conceitos que estou explorando.
 
 Ao longo deste repositório, você encontrará:
 
@@ -12,6 +12,7 @@ Este repositório funciona como uma maneira de documentar minha jornada acadêmi
 
 ---
 
-⚡ **Em andamento** - [@akyparfait](https://github.com/akyparfait) 🚀
+⚡ **Status:** Em andamento 🚀  
+👤 **Autor:** [@akyparfait](https://github.com/akyparfait)
 
 ---
