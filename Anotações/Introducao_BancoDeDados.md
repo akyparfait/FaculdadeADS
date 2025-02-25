@@ -1,86 +1,72 @@
 # Conceito
 
-## Banco de dados: É uma coleção de dados persistentes utilizada pelos sistemas de aplicação de uma empresa;
+## Banco de Dados
 
-Conjunto: É uma coleção;
+- É uma coleção de dados persistentes utilizada pelos sistemas de aplicação de uma empresa.
+- **Conjunto**: É uma coleção.
+- **Grupo lógico de arquivos** relacionados entre si.
+- Envolve um aspecto hierárquico na organização de um banco de dados, desde o bit que se agrupa em byte, que por sua vez compõem campos.
+- **Banco de dados**: É um conjunto integrado de elementos ou de registros de dados que estão relacionados entre si de maneira lógica em formato de tabela ou outro.
 
-Grupo lógico de arquivos relacionados entre si;
+## Diagrama Entidade-Relacional (DER)
 
-Envolvemos um aspecto hierárquico envolvido na organização de um banco de dados, indo desde o bit que se agrupa em byte, por vez
-compõem campos;
+- **Modelo conceitual**: A lógica que há por trás.
+- **Modelo lógico**: Método de desenvolvimento.
+- **Modelo físico**: Onde se armazena fisicamente os dados.
 
-Banco de dados: É um conjunto integrado de elementos ou de registros de dados que estão relacionados entre si de maneira lógica 
-em formato de tabela ou outro.
+## Níveis de Usuários
 
-Diagrama entidade Relacional (DER)
+- **Usuários** = Nível externo (mapeamento externo/conceitual).
+- **Esquema conceitual** = Nível médio.
 
-Modelo conceitual ( é a lógica que há por trás )
-Modelo lógico ( Método de desenvolvimento )
-Modelo físico ( Onde se armazena ) [ vai fazer o armazenamento fisicamente ]
+## Evolução dos Bancos de Dados
 
+- **Antes da década de 60**: Feitos em cartões e lidos por sistemas ópticos.
+- **Década de 60**: Surgimento da IBM, estrutura organizacional semelhante a uma árvore genealógica (**boom dos dados hierárquicos**).
+- **Década de 70**: Introdução do modelo relacional, sendo o **R** o primeiro banco de dados relacional.
+- **Década de 80**: Modelos hierárquicos diminuíram; criação da linguagem **SQL (Structured Query Language)**.
+- **Anos 2000**: 
+  - **MySQL** é comprado pela **SUN**.
+  - **2009**: **SUN** é comprada pela **Oracle**.
+  - **2009**: Lançamento do **MariaDB**.
+  - **2009**: Lançamento do **MongoDB**.
 
-Usuários = Nível externo (mapeamento externo/conceitual)
-Esquema conceitual = Nível médio
+## Sistemas de Arquivos (Antes dos Bancos de Dados Formais)
 
-Evolução dos BDs
+- Eram armazenados em fitas magnéticas ou discos.
+- Cada sistema criava e gerenciava seus próprios arquivos.
+- Problemas como **redundância**, **inconsistência** e **dificuldade de acesso** eram comuns.
+  - **Redundância**: Repetição desnecessária de dados.
 
-Antes da década de 60 = Feitos em cartões - era lido por sistemas opticos; 
+## Modelos Hierárquicos e em Redes
 
-Década de 60 = surgimento da IBM e feitos como uma árvore genealógica (FOI O *BOOM* DE DADOS HIERÁRQUICOS);
+### Diferença:
+- **Hierárquico**: Registro em linha que possui filhos.
+- **Em rede**: Pode ter mais de um pai para os registros.
 
-Década de 70 = Modelo relacional, R como primeiro banco de dados relacional;
+## SQL (Modelo Relacional)
 
-Década de 80 = Modelos hierárquicos diminuiram;
-Criou SQL (Structured Query Language) criava dados de uma tabela
+- O modelo relacional sempre terá **entidades** que fazem **relacionamentos** e possuem **atributos**.
+- Cardinalidade: Define os relacionamentos entre entidades de um banco de dados.
+  - **Um para Um (1:1)**.
+  - **Um para Muitos (1:N)**.
+  - **Muitos para Muitos (N:N)**.
+  - **Zero ou Um para Muitos (0:1:N)**.
+- Organização em linhas.
+- **Chave estrangeira**: Referencia outro ambiente.
+- **Registro**: Cada componente será uma nova linha, que representa atributos desse registro.
+- A junção disso tudo forma a **instância**.
+- A primeira linha de cada tabela será o **campo**.
 
-Anos 2000 = MySQL é comprado pela SUN 
-     2009   SUN é comprada pela Oracle
-     2009   Lançamento do MariaDB
-     2009   Lançamento do MongoDB
+## Escalabilidade
 
-Sistemas de Arquivos (Antes dos bancos de dados formais)
-Eram armazenados em fitas magnéticas ou discos
-Criava e gerenciava os seus próprios arquivos e aconteciam vários erros como redundância, inconsistência e dificuldade de acesso.
-Redundância = repetição desnecessária de dados.
+- **Escalabilidade Vertical**: Aumenta a capacidade da máquina.
+- **NoSQL (Não relacional)**: Foco em **escalabilidade horizontal**, tudo armazenado em um único banco.
 
-Modelos hierárquicos e em redes
+## Princípio ACID
 
-Diferença
-Hierárquico ( registro em linha que possui filhos ) 
-Em rede ( só precisa de um registro para os dados, pode ter mais de um pai)
+- **A - Atomicidade**: Tudo ou nada; se apagar um pedido anterior, remove os próximos.
+- **C - Consistência**: Só armazena os dados depois da conclusão para evitar problemas.
+- **I - Isolamento**: Os dados estão bem organizados e isolados sem repetição.
+- **D - Durabilidade**: O dado não pode sumir.
 
-SQL (modelo relacional)
-[ modelo relacional sempre terá entidades que fazem relacionamentos quais colocam atributos e podem fazer ''emições'' 
-para identificadores ]
-
-Cardinalidade: Define os relacionamentos entre entidades de uma base de dados (ele ameaçou colocar na prova)
--> Um para Um (1:1);
--> Um para muitos (1:N);
--> muitos para muitos (N:N);
--> zero ou um para muitos (0:1:N);
-
-Organização em linhas
-Chave estrangeira = vai para o outro ambiente (por isso o nome);
-
-Cúpula ou registro (registrar cada componente vai ser uma nova linha ou no caso novo registro cada linha se refere a atributos;
-desse registro)
-
-Cada atributo registrado será um registro mas não deixa de ser atributo;
-
-A junção disso tudo é instância;
-
-Primeira linha de cada tabela será o campo;
-
-escalabilidade Vertical = aumenta capacidade de máquina.
-
-NoSQL (Não relacional)
-
-Foco em escalabilidade horizontal = Tudo em um banco;
-
-
-Princípio ACID
-
-A - Atomicidade ( É tudo ou nada se apagar um pedido anterior remove os próximos )
-C - Consistência ( Só armazena os dados depois da conclusão para não ter problemas )
-I - Isolamento ( O dados estão bem organizados e isolados sem repetição )
-D - Durabilidade ( O dado não pode sumir )
