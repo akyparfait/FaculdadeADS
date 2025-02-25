@@ -13,13 +13,13 @@ Ao longo deste repositório, você encontrará:
 # Cursos e Tecnologias que estão sendo estudados
 Atualmente, estou estudando CSS e Java, incluindo os seguintes tópicos e frameworks:
 
-Java e Programação Orientada a Objetos (OO)
-UML (Modelagem de Software)
-JDBC (Acesso a Bancos de Dados)
-JavaFX (Interfaces Gráficas)
-Spring Boot (Desenvolvimento Backend)
-JPA & Hibernate (Mapeamento Objeto-Relacional)
-MySQL & MongoDB (Bancos de Dados Relacionais e NoSQL)
+- Java e Programação Orientada a Objetos (OO)
+- UML (Modelagem de Software)
+- JDBC (Acesso a Bancos de Dados)
+- JavaFX (Interfaces Gráficas)
+- Spring Boot (Desenvolvimento Backend)
+- JPA & Hibernate (Mapeamento Objeto-Relacional)
+- MySQL & MongoDB (Bancos de Dados Relacionais e NoSQL)
 
 ---
 
