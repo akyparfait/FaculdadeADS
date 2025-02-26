@@ -86,5 +86,7 @@ public class Casamento {
 - O zero é responsável por preencher uma informação;
 - Se o zero estiver vazio puxa pois o início nunca deve ser vazio; (pode cair na provinha);
 - Na dinâmica pode se colocar o índice 4;
-- Dinâmica pode botar todo mundo pra dentro até lotar.
-- Vale ressaltar que nem todas as linguagens de programação usam índices baseados em 0 para arrays, algumas usam base 1 ou outras convenções.
+- Dinâmica pode botar todo mundo pra dentro até lotar;
+- Vale ressaltar que nem todas as linguagens de programação usam índices baseados em 0 para arrays, algumas usam base 1 ou outras convenções;
+- Se todos os campos forem preenchidos dentro da memória a execução será mais rápida;
+- O tamanho do índice pode ser variável ou fixo.
