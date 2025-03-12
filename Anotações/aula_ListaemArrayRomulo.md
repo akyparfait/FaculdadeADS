@@ -39,3 +39,22 @@ Em geral, em estruturas de dados relacionadas a árvores, como em árvores biná
 - Merge Sort: O Merge Sort é um algoritmo de ordenação baseado em divisão e conquista. Ele divide
 a lista em duas metades, ordena cada metade recursivamente e depois combina as duas metades ordenadas para produzir a lista final ordenada. É conhecido por sua eficiência e estabilidade.
 - Quebra 2 listas e junta em 1 nova.
+
+## Algoritmo de busca
+
+- Busca Linear:
+
+A busca linear é um método simples e direto de busca. Ela percorre a lista sequencialmente, comparando cada
+elemento com o valor que está sendo procurado. Se o elemento for encontrado, a busca linear retorna a posição do elemento na lista. Caso contrário, ela retorna que o elemento não foi encontrado. A complexidade da busca linear é O(n), onde n é o número de elementos na lista. Isso significa que o tempo de execução aumenta linearmente com o tamanho da lista.
+
+- Busca Binária:
+
+A busca binária é um algoritmo de busca eficiente utilizado em listas ordenadas.
+Ela funciona dividindo repetidamente a lista ao meio e verificando se o elemento que está sendo procurado está
+na metade esquerda ou direita da lista.
+
+- Aplicações práticas:
+
+Eles são amplamente
+utilizados em áreas como sistemas de gerenciamento de banco de
+dados, jogos e sistemas de informação.
