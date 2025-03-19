@@ -58,3 +58,7 @@ na metade esquerda ou direita da lista.
 Eles são amplamente
 utilizados em áreas como sistemas de gerenciamento de banco de
 dados, jogos e sistemas de informação.
+
+- fila.peek:
+
+Verificar o item da fila sem remover. apenas consultar, o add adiciona, o pull remove, então apenas lista (verifica sem remover, quer apenas listagem dessa fila).
